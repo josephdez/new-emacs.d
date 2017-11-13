@@ -178,17 +178,10 @@
   (use-package dired-x))
   #+END_SRC
 
-* eink
-
-  https://github.com/maio/eink-emacs
-
-  #+BEGIN_QUOTE
-  Low distraction, minimalistic color theme for Emacs emulating
-  reading on E Ink devices.
-  #+END_QUOTE
+* zenburn
 
   #+begin_src emacs-lisp
-(use-package eink-theme
+(use-package zenburn-theme
   :ensure t)
   #+end_src
 
